@@ -1,0 +1,125 @@
+/* Set the font family and background color */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  background-image: url("img/w1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Style the form */
+form {
+  width: 30%;
+  margin-top: 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  margin-left: 60%;
+  margin-bottom: 0px;
+}
+.reg-btn {
+  margin-top: 0px;
+}
+
+/* Style the form header */
+h1 {
+  text-align: left;
+  color: #333333;
+  font-weight: 600;
+
+
+}
+
+/* Style the form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #5a2525;
+  font-weight: bold;
+}
+
+/* Style the form input fields */
+input[type=text],
+input[type=password] {
+  display: flex;
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #8a2b2b;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Style the login button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+  margin-left: 25%;
+  font-size: 16px;
+}
+
+/* Style the registration button */
+input[type=submit]:last-child {
+  background-color: #383333;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  background-color: #04211f;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the form footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #666666;
+  font-size: 14px;
+}
+
+
+.intro {
+  margin-top: 55px;
+  text-align: right;
+  font-style: italic;
+  font-size: 75px;
+  font-weight: 800;
+  color: #ffd52d;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, transparent, #ffdb58, transparent);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+
+

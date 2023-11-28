@@ -1,0 +1,99 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  background-image: url("img/anp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 40%;
+  background-color: #eee9bd;
+  margin-left: 20px ;
+  margin-top: 60px;
+  border: 2px solid #f7bb07;
+
+}
+
+table th, table td {
+  border: 1px solid #000000;
+  padding: 15px;
+
+}
+
+table th {
+  background-color: #ba8513;
+}
+
+/* Center the form on the page */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60%;
+  border: 2px solid #f7bb07;
+  width: 15cm;
+  padding: 1%;
+  
+  
+}
+
+/* Style the form labels */
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  color: black;
+  background-color:#ba8513;
+}
+
+/* Style the form input fields */
+input[type="password"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee9bd;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+/* Style the form button */
+button[type="submit"] {
+  background-color: #ffd500;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #856609;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  table {
+    width: 100%;
+  }
+  
+  form {
+    width: 100%;
+  }
+}

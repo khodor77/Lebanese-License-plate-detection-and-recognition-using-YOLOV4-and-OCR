@@ -1,0 +1,6 @@
+#add absolute paths of the files and delete this comment if any error is encountered
+classes = 1
+train = ./data/obj/train.txt
+valid = ./data/obj/test.txt
+names = ./data/obj.names
+backup = ./checkpoint

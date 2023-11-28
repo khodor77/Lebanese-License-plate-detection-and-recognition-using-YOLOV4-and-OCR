@@ -1,0 +1,194 @@
+/* Global Styles */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  }
+  
+  a {
+  text-decoration: none;
+  color: #ec0606;
+  }
+  
+  button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  }
+  
+  /* Header Styles */
+  
+  header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #282626;
+  color: #b07e34;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 10;
+  }
+  
+  .logo {
+  font-size: 24px;
+  font-weight: bold;
+  }
+  
+  .nav-links {
+  display: flex;
+  }
+  
+  .nav-links li {
+  margin-left: 20px;
+  }
+  
+  .nav-links a {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  }
+  
+  .nav-links a:hover {
+  background-color: #555;
+  }
+/* set global font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-image: url("img/anp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* set styles for the container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* set styles for the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* set styles for the top-right section */
+.top-right {
+  display: flex;
+  align-items: center;
+}
+
+/* set styles for the user links */
+.user-links {
+  margin-left: 10px;
+  color: #b07e34;
+  text-decoration: none;
+}
+
+.user-links:hover {
+  text-decoration: underline;
+}
+
+/* set styles for the "Add Flagged Plate" button */
+#add-flagged-plate-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:  #ba8513;
+  color: #201f1f;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#add-flagged-plate-btn:hover {
+  background-color: #efc872;
+}
+
+/* set styles for the "Flagged Licenses" section */
+.flagged-licenses-box {
+  border: 1px solid #b78d0e;
+  border-radius: 5px;
+  padding: 20px;
+}
+.flagged-licenses-box h2 {
+  color: rgb(255, 206, 8);
+}
+
+/* set styles for the search input */
+#search-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* set styles for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #b78d0e;
+  background-color: white;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #b78d0e;
+ 
+}
+
+table th {
+  background-color: #b78d0e;
+  font-weight: bold;
+}
+
+/* set styles for the "Approve" button */
+.approve-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  width: 70px;
+}
+
+.approve-btn:hover {
+  background-color: #218838;
+}
+
+/* set styles for the "Deny" button */
+.deny-btn {
+  background-color: #dc3545;
+  color: #fff;
+  width: 70px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deny-btn:hover {
+  background-color: #c82333;
+}
